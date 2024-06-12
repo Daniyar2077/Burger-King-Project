@@ -9,7 +9,7 @@ btnOne.addEventListener('click', function () {
 
         const productInfoOne = {
             id: "01",
-            image: "/burger images/vopper.png",
+            image: "vopper.png",
             name: "ВОППЕР",
             price: "1200 тг",
             counter: cardOne.querySelector('.counter-text-one').innerText
@@ -64,7 +64,7 @@ btnTwo.addEventListener('click', function () {
 
         const productInfoTwo = {
             id: "02",
-            image: "/burger images/steykhaus.png",
+            image: "steykhaus.png",
             name: "СТЕЙКХАУС",
             price: "1350 тг",
             counter: cardTwo.querySelector('.counter-text-two').innerText
@@ -119,7 +119,7 @@ btnThree.addEventListener('click', function () {
 
         const productInfoThree = {
             id: "03",
-            image: "/burger images/krispy chicken.png",
+            image: "krispy chicken.png",
             name: "КРИСПИ ЧИКЕН",
             price: "1500 тг",
             counter: cardThree.querySelector('.counter-text-three').innerText
